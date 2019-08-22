@@ -1,0 +1,8 @@
+ASP.NET CORE House Keeping
+
+Steps to create .net core empty web application. 
+
+dotnet new webapp -o aspnetcoreapp
+dotnet dev-certs https --trust
+cd aspnetcoreapp
+dotnet run

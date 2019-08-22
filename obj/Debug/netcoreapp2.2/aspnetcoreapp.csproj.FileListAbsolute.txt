@@ -1,0 +1,14 @@
+C:\aspnetcoreapp\bin\Debug\netcoreapp2.2\aspnetcoreapp.deps.json
+C:\aspnetcoreapp\bin\Debug\netcoreapp2.2\aspnetcoreapp.runtimeconfig.json
+C:\aspnetcoreapp\bin\Debug\netcoreapp2.2\aspnetcoreapp.runtimeconfig.dev.json
+C:\aspnetcoreapp\bin\Debug\netcoreapp2.2\aspnetcoreapp.dll
+C:\aspnetcoreapp\bin\Debug\netcoreapp2.2\aspnetcoreapp.pdb
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.csprojAssemblyReference.cache
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.csproj.CoreCompileInputs.cache
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.RazorAssemblyInfo.cache
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.RazorAssemblyInfo.cs
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.AssemblyInfoInputs.cache
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.AssemblyInfo.cs
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.RazorTargetAssemblyInfo.cache
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.dll
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.pdb
