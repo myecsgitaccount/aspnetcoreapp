@@ -28,7 +28,9 @@ Added logger ability by injecting it into the configure method and pass in the t
 
 Routing
 
-
+This refers to mapping of resource on the server disk.
+We use the route attribute in the controllers like this [Route("")] or pass it on the controller level.
+Custome Routing
 
 
 

@@ -17,6 +17,7 @@ namespace aspnetcoreapp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IHello, Hello>(); 
+            services.AddMvc(); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -26,7 +27,8 @@ namespace aspnetcoreapp
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseStaticFiles();      
+            app.UseStaticFiles();    
+            app.UseMvcWithDefaultRoute();   
             app.Map("/test", testPipeline); 
             app.Run(async (context) =>
             {
