@@ -6,3 +6,20 @@ dotnet new webapp -o aspnetcoreapp
 dotnet dev-certs https --trust
 cd aspnetcoreapp
 dotnet run
+
+Middleware
+This determines how our application run and in what order. e.g.
+User makes a request, 
+server queues the request in application pool
+IIS w3wp.exe worker process manages request/response
+
+The flow is as follows
+Begin Reuest - Authenticate Request - Post Aunthenticate - Authorize Authenticate and so on ... until it gets to Http Handler
+which reverses the process and stops at End Request.
+
+Dependency Injection
+One of the solid principle. Implemented using IHello interface and Hello concrete class.
+Mapped them in the services configurationservice method of the start up class.
+
+
+
