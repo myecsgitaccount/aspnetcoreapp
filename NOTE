@@ -32,5 +32,17 @@ This refers to mapping of resource on the server disk.
 We use the route attribute in the controllers like this [Route("")] or pass it on the controller level.
 Custome Routing
 
+[Route("admin/[controller]/[action]")]
+public string Index()
+{
+    return "Hello User"; 
+}
+
+or 
+
+app.UseMvc(routes => {
+routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}"); 
+routes.MapRoute("shop", "shop/{controller=Home}/{action=Index}/{id?}"); 
+}); 
 
 

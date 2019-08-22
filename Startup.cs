@@ -28,7 +28,11 @@ namespace aspnetcoreapp
                 app.UseDeveloperExceptionPage();
             }
             app.UseStaticFiles();    
-            app.UseMvcWithDefaultRoute();   
+            //app.UseMvcWithDefaultRoute();   
+            app.UseMvc(routes => {
+                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}"); 
+                routes.MapRoute("shop", "shop/{controller=Home}/{action=Index}/{id?}"); 
+            }); 
             app.Map("/test", testPipeline); 
             app.Run(async (context) =>
             {
