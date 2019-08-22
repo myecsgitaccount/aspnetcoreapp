@@ -21,5 +21,14 @@ Dependency Injection
 One of the solid principle. Implemented using IHello interface and Hello concrete class.
 Mapped them in the services configurationservice method of the start up class.
 
+Worked with IApplicationBuilder to configure different pipelines and how they should be executed.
+
+Served static files by adding a folder for vscode called wwwroot and created index.html in it.
+Added logger ability by injecting it into the configure method and pass in the type startup class.
+
+Routing
+
+
+
 
 
