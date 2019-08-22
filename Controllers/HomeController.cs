@@ -2,20 +2,21 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace aspnetcoreapp
 {
-    [Route("Homes")]
     public class HomeController : Controller
     {
-        [Route("index")]
-        // GET: /<controller>/
-        public string Index()
+        public IActionResult index()
         {
-            return "Hello From Controller"; 
+            return View(); 
         }
 
-        [Route("about")]
-        public string about()
+        public IActionResult About()
         {
-            return "About us"; 
+            return View(); 
+        }
+
+        public IActionResult Contact()
+        {
+            return View(); 
         }
     }
 }

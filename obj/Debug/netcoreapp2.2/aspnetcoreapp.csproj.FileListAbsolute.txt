@@ -12,3 +12,14 @@ C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.AssemblyInfo.cs
 C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.RazorTargetAssemblyInfo.cache
 C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.dll
 C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.pdb
+C:\aspnetcoreapp\bin\Debug\netcoreapp2.2\aspnetcoreapp.Views.dll
+C:\aspnetcoreapp\bin\Debug\netcoreapp2.2\aspnetcoreapp.Views.pdb
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.TagHelpers.input.cache
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.TagHelpers.output.cache
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.RazorCoreGenerate.cache
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\Razor\Views\Home\about.g.cshtml.cs
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contact.g.cshtml.cs
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\Razor\Views\Home\index.g.cshtml.cs
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.RazorTargetAssemblyInfo.cs
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.Views.pdb
+C:\aspnetcoreapp\obj\Debug\netcoreapp2.2\aspnetcoreapp.csproj.CopyComplete

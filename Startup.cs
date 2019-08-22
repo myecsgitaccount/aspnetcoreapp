@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Routing; 
 
 namespace aspnetcoreapp
 {
@@ -29,22 +30,25 @@ namespace aspnetcoreapp
             }
             app.UseStaticFiles();    
             //app.UseMvcWithDefaultRoute();   
-            app.UseMvc(routes => {
-                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}"); 
-                routes.MapRoute("shop", "shop/{controller=Home}/{action=Index}/{id?}"); 
-            }); 
+            app.UseMvc(ConfigureRoutes); 
+                
+            
             app.Map("/test", testPipeline); 
-            app.Run(async (context) =>
-            {
-                //await context.Response.WriteAsync("Hello World!");
-                // await context.Response.WriteAsync(hello.SayHello()); 
-                logger.LogInformation("Response Served"); 
-                await context.Response.WriteAsync(hello.SayHello()); 
-            });
+            // app.Run(async (context) =>
+            // {
+            //     //await context.Response.WriteAsync("Hello World!");
+            //     // await context.Response.WriteAsync(hello.SayHello()); 
+            //     logger.LogInformation("Response Served"); 
+            //     await context.Response.WriteAsync(hello.SayHello()); 
+            // });
+
+            
         }
 
-
-
+        private static void ConfigureRoutes(IRouteBuilder routes)
+        {
+            routes.MapRoute("default", "{controller=Home}/{action=index}/{id?}");
+        }
         private static void testPipeline(IApplicationBuilder app)
         {
             app.Run(async context => {

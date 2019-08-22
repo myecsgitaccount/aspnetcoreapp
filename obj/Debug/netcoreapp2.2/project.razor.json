@@ -2941,6 +2941,22 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "aspnetcoreapp",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "Views\\Home\\index.cshtml",
+      "TargetPath": "Views\\Home\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\about.cshtml",
+      "TargetPath": "Views\\Home\\about.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.1"
 }
